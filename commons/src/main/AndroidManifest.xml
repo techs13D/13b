@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.photogallery.galeriavault">
+
+
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.USE_BIOMETRIC"
+        tools:node="remove" />
+
+    <!-- used by Reprint -->
+    <uses-permission
+        android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+        tools:node="remove" />
+
+    <application android:supportsRtl="true">
+        <activity
+            android:name="org.photogallery.galeriavault.activities.ContributorsActivity"
+            android:exported="false"
+            android:label="@string/contributors"     />
+
+        <activity
+            android:name="org.photogallery.galeriavault.activities.FAQActivity"
+            android:exported="false"
+            android:label="@string/frequently_asked_questions" />
+
+        <activity
+            android:name="org.photogallery.galeriavault.activities.LicenseActivity"
+            android:exported="false"
+            android:label="@string/third_party_licences"/>
+
+        <receiver
+            android:name=".receivers.SharedThemeReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.photogallery.galeriavault.SHARED_THEME_ACTIVATED" />
+                <action android:name="org.photogallery.galeriavault.SHARED_THEME_UPDATED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

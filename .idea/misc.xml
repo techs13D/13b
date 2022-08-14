@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/actionbar_title.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/activity_customization.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/dialog_purchase_thank_you.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/item_select_alarm_sound.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/radio_button.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/search_bar.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/tab_biometric_id.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/tab_fingerprint.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/tab_pattern.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/tab_pin.xml" value="0.25" />
+        <entry key="..\:/Users/ideapad/Desktop/progect/Simple-Gallery-master (2)/fdfd/photogallery/commons/src/main/res/layout/tab_rename_simple.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
